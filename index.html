@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>WiiUSetup</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Wii U Setup</h3>
+            </div>
+          </div>
+
+          <div class="inner cover" id="inner1">
+            <br>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default" onclick="startup_CFW()">Prepare Zip (Haxchi or Browser)</a>
+            </p>
+          </div>
+          
+          <div class="inner cover" id="inner2">
+              <div class="flexlist">
+                  <p class="lead">
+                    <div id="progress" class="infobox">
+                        <label>Progress</label>
+                    </div>
+                  </p>
+                  <p class="lead">
+                    <div id="complete" class="infobox">
+                        <label>Complete</label>
+                    </div>
+                  </p>
+              </div>
+        <br><br>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default" onclick="downloadZip()">Download Zip</a>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="7HVVKPWKEX9N4">
+                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    <script src="libs/jquery-1.10.2.js"></script>
+    <script src="libs/FileSaver.js"></script>
+    <script src="libs/jszip.js"></script>
+    <script src="scripts/step_methods.js"></script>
+    <script src="https://rikumax25.github.io/3SDSetup/scripts/low_methods.js"></script>
+    
+    <script>window.jQuery || document.write('<script src="libs/jquery-1.10.2.js"')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+
+</html>
