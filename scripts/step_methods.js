@@ -28,13 +28,13 @@ function startup_CFW(){
     getLatestRelease("koolkdev","disc2app",".zip","disc2app");
     extractZip("disc2app","","");
     
-    getFileBuffer_url("https://crossorigin.me/http://wiiubru.com/appstore/zips/wuphax.zip", "WUPhax");
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wuphax.zip", "WUPhax");
     extractZip("WUPhax","","");
     
     getLatestRelease("Maschell","saviine",".zip","Saviine");
     extractZip("Saviine","","");
     
-    //getFileBuffer_url("https://bootmii.org/get.php?file=hackmii_installer_v1.2.zip", "BootMii");
+    //getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://bootmii.org/get.php?file=hackmii_installer_v1.2.zip", "BootMii");
     //getFileBuffer_zip("BootMii","boot.elf","boot.elf","");
     
     getFileBuffer_url("https://wiiu.guide/images/vWii_cIOS_apps_20131218.zip", "vWii cIOS apps");
