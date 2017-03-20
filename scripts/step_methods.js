@@ -1,6 +1,6 @@
 $("#inner2").hide();
 
-function startup_CFW(){
+function startup_CFW(guide){
     $("#inner1").hide();
     $("#inner2").show();
     
@@ -12,10 +12,13 @@ function startup_CFW(){
 
     getLatestRelease("FIX94","haxchi","Haxchi","Haxchi");
     extractZip("Haxchi","","");
-    
-    getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");
+    if(guide == "plai"){
+        getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
+    }else if(guide == "flim"){
+        getFileBuffer_url("https://rikumax25.github.io/wiiusetup/localFiles/config.txt", "Config.txt");  
+    };
     addFile("Config.txt","haxchi","config.txt","list");
-
+    
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://github.com/dimok789/homebrew_launcher/releases/download/v1.3/homebrew_launcher.v1.3.zip","Homebrew Launcher 1.3");
     extractZip("Homebrew Launcher 1.3","","");
     

@@ -1,0 +1,3 @@
+a=wiiu/apps/homebrew_launcher/homebrew_launcher.elf
+b=wiiu/apps/wupinstaller/wupinstaller.elf
+default=sysmenu
