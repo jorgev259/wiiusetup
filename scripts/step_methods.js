@@ -3,6 +3,7 @@ $("#inner2").hide();
 function startup_CFW(guide){
     $("#inner1").hide();
     $("#inner2").show();
+    $('body').css("background-image", "url(img/bg2.png)"); 
     
     getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
     extractZip("Homebrew App Store","wiiu","");

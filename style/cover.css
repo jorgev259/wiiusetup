@@ -27,7 +27,8 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #5697f3;
+   background-image: url("../img/bg.png");
+  background-size: cover;
 }
 body {
   color: #fff;
@@ -36,6 +37,8 @@ body {
 }
 select{
     color:black;
+    height: 25px;
+    width: 80px;
 }
 .flexlist{
     display: flex;
