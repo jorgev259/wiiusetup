@@ -1,6 +1,8 @@
 $("#inner2").hide();
 
 function startup_CFW(guide){
+    toastr["info"]("Once all downloads finish, click 'Download Zip' and extract everything inside plairekt.zip into your SD Card");
+
     $("#inner1").hide();
     $("#inner2").show();
     $('body').css("background-image", "url(img/bg2.png)"); 
