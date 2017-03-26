@@ -19,18 +19,23 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
 
-html,
-body {
-  height: 100%;
-   background-image: url("../img/bg.png");
-  background-size: cover;
+html 
+{ 
+    height: 100%;
+    background: url('../img/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 body {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
