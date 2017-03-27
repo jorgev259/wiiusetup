@@ -18,7 +18,7 @@ function startup_CFW(guide){
     if(guide == "plai"){
         getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
     }else if(guide == "flim"){
-        getFileBuffer_url("https://rikumax25.github.io/wiiusetup/localFiles/config.txt", "Config.txt");  
+        getFileBuffer_url("http://wiiusetup.tk/localFiles/config.txt", "Config.txt");  
     };
     addFile("Config.txt","haxchi","config.txt","list");
     
