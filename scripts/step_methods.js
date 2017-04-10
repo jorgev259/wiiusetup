@@ -14,6 +14,7 @@ function startup_CFW(guide){
     extractZip("CBHC","","");
 
     getLatestRelease("FIX94","haxchi","Haxchi","Haxchi");
+    deletefile_zip("Haxchi","haxchi/config.txt");
     extractZip("Haxchi","","");
     if(guide == "plai"){
         getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
