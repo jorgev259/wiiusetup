@@ -1,6 +1,6 @@
 $("#inner2").hide();
 
-function startup_CFW(guide){
+function startup_CFW(){
     toastr["info"]("Once all downloads finish, click 'Download Zip' and extract everything inside plairekt.zip into your SD Card");
 
     $("#inner1").hide();
@@ -16,11 +16,8 @@ function startup_CFW(guide){
     getLatestRelease("FIX94","haxchi","Haxchi","Haxchi");
     deletefile_zip("Haxchi","haxchi/config.txt");
     extractZip("Haxchi","","");
-    if(guide == "plai"){
-        getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
-    }else if(guide == "flim"){
-        getFileBuffer_url("http://wiiusetup.tk/localFiles/config.txt", "Config.txt");  
-    };
+    getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
+
     addFile("Config.txt","haxchi","config.txt","list");
     
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://github.com/dimok789/homebrew_launcher/releases/download/v1.3/homebrew_launcher.v1.3.zip","Homebrew Launcher 1.3");
