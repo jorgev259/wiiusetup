@@ -11,7 +11,7 @@ function startup_CFW(){
     getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
     extractZip("Homebrew App Store","wiiu","");
     
-    getLatestRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","Homebrew Launcher 1.4");
+    getRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","1.4","Homebrew Launcher 1.4");
     extractZip("Homebrew Launcher 1.4","","");
     
     getLatestRelease("FIX94","haxchi","CBHC","CBHC");
