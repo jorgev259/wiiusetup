@@ -12,7 +12,7 @@ function startup_CFW(){
     extractZip("Homebrew App Store","wiiu","");
     
     getLatestRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","Homebrew Launcher 1.4");
-    extractZip("Homebrew Launcher 1.3","","");
+    extractZip("Homebrew Launcher 1.4","","");
     
     getLatestRelease("FIX94","haxchi","CBHC","CBHC");
     extractZip("CBHC","","");
