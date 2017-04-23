@@ -39,7 +39,7 @@ function startup_CFW(){
     extractZip("disc2app","","");
     
     getLatestRelease("Maschell","hid_to_vpad",".zip","HiD to VPad");
-    extractZip("Hid to VPad","","");
+    extractZip("HiD to VPad","","");
     
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/nnupatcher.zip", "NNU-Patcher");
     extractZip("NNU-Patcher","","");
