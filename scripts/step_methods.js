@@ -44,7 +44,7 @@ function startup_CFW(){
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/nnupatcher.zip", "NNU-Patcher");
     extractZip("NNU-Patcher","","");
     
-    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/nnupatcher.zip", "WUPhax");
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wuphax.zip", "WUPhax");
     extractZip("WUPhax","","");
      getFileBuffer_url("https://wiiu.guide/images/vWii_cIOS_apps_20131218.zip", "vWii cIOS apps");
     extractZip("vWii cIOS apps","","");
