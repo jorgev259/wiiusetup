@@ -21,7 +21,7 @@ function startup_CFW(){
     deletefile_zip("Haxchi","haxchi/config.txt");
     extractZip("Haxchi","","");
     
-    getFileBuffer_url("https://wiiu.guide/images/config.txt", "Config.txt");       
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://wiiu.guide/images/config.txt", "Config.txt");       
     addFile("Config.txt","haxchi","config.txt","list");    
     getLatestRelease("dimok789","homebrew_launcher","channel","Homebrew Launcher Channel");
     extractZip("Homebrew Launcher Channel","install/hbc","");
@@ -46,10 +46,10 @@ function startup_CFW(){
     
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wuphax.zip", "WUPhax");
     extractZip("WUPhax","","");
-     getFileBuffer_url("https://wiiu.guide/images/vWii_cIOS_apps_20131218.zip", "vWii cIOS apps");
+     getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://wiiu.guide/images/vWii_cIOS_apps_20131218.zip", "vWii cIOS apps");
     extractZip("vWii cIOS apps","","");
     
-    getFileBuffer_url("https://wiiu.guide/images/Patched_IOS80_Installer_for_vWii.zip","Patched IOS80 installer"); 
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://wiiu.guide/images/Patched_IOS80_Installer_for_vWii.zip","Patched IOS80 installer"); 
     extractFolder("Patched IOS80 installer","apps","");
     
     //getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://bootmii.org/get.php?file=hackmii_installer_v1.2.zip", "BootMii");
