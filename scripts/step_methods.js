@@ -52,7 +52,7 @@ function startup_CFW(){
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://wiiu.guide/images/Patched_IOS80_Installer_for_vWii.zip","Patched IOS80 installer"); 
     extractFolder("Patched IOS80 installer","apps","");
     
-    //getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://bootmii.org/get.php?file=hackmii_installer_v1.2.zip", "BootMii");
-    //getFileBuffer_zip("BootMii","boot.elf","boot.elf","");
+    getFileBuffer_url("http://wiiusetup.net/localfiles/hackmii_installer_v1.2.zip", "BootMii");
+    getFileBuffer_zip("BootMii","boot.elf","boot.elf","");
 
 }
