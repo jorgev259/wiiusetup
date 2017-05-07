@@ -53,6 +53,6 @@ function startup_CFW(){
     extractFolder("Patched IOS80 installer","apps","");
     
     getFileBuffer_url("http://wiiusetup.net/localFiles/hackmii_installer_v1.2.zip", "BootMii");
-    getFileBuffer_zip("BootMii","boot.elf","boot.elf","");
+    getFileBuffer_zip("BootMii","hackmii_installer_v1.2/boot.elf","boot.elf","");
 
 }
