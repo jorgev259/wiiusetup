@@ -1,8 +1,9 @@
 $("#inner2").hide();
 var guide = "wiiu.guide"
+var download_msg;
 
 function startup_CFW(){
-    toastr["warning"]("Once all downloads finish, click 'Download Zip' and extract everything inside the given zip into your SD Card");
+    download_msg = toastr["warning"]("Once all downloads finish, click 'Download Zip' and extract everything inside the given zip into your SD Card");
 
     $("#inner1").hide();
     $("#inner2").show();
