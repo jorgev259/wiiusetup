@@ -6,7 +6,7 @@ function startup_CFW(){
 
     $("#inner1").hide();
     $("#inner2").show();
-    $('body').css("background-image", "url(img/bg2.png)"); 
+    $("html").addClass("bg_change");
     
     getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
     extractZip("Homebrew App Store","wiiu","");
