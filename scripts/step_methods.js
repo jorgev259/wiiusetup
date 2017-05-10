@@ -2,7 +2,7 @@ $("#inner2").hide();
 var guide = "wiiu.guide"
 
 function startup_CFW(){
-    toastr["info"]("Once all downloads finish, click 'Download Zip' and extract everything inside plairekt.zip into your SD Card");
+    toastr["warning"]("Once all downloads finish, click 'Download Zip' and extract everything inside the given zip into your SD Card");
 
     $("#inner1").hide();
     $("#inner2").show();
