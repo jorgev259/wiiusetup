@@ -9,6 +9,9 @@ function startup_CFW(){
     $("#inner2").show();
     $("html").addClass("bg_change");
     
+    getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
+    extractZip("Homebrew App Store","wiiu","");
+    
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wup_installer_gx2.zip", "WUP Installer GX2 (Homebrew Launcher)");
     extractZip("WUP Installer GX2 (Homebrew Launcher)","","");
     
