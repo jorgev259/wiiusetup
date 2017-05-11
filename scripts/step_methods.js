@@ -9,8 +9,12 @@ function startup_CFW(){
     $("#inner2").show();
     $("html").addClass("bg_change");
     
-    getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
-    extractZip("Homebrew App Store","wiiu","");
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wup_installer_gx2.zip", "WUP Installer GX2 (Homebrew Launcher)");
+    extractZip("WUP Installer GX2 (Homebrew Launcher)","","");
+    
+    
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip", "WUP Installer GX2 (Channel)");
+    extractFolder("WUP Installer GX2 (Channel)","WUP_Installer_GX2","install")
     
     getRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","1.4","Homebrew Launcher 1.4");
     extractZip("Homebrew Launcher 1.4","","");
@@ -31,10 +35,7 @@ function startup_CFW(){
     getFileBuffer_zip("Mocha CFW","mocha.elf","mocha.elf","wiiu/apps/mocha");
              
     getLatestRelease("Ryuzaki-MrL","savemii",".zip","savemii")
-    extractZip("savemii","wiiu/apps","")
-    
-    getLatestRelease("Yardape8000","wupinstaller",".zip","WUP installer");
-    extractZip("WUP installer","","");
+    extractZip("savemii","wiiu/apps","");
     
     getLatestRelease("koolkdev","disc2app",".zip","disc2app");
     extractZip("disc2app","","");
