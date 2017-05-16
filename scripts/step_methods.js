@@ -8,19 +8,19 @@ function startup_CFW(){
     $("#inner1").hide();
     $("#inner2").show();
     $("html").addClass("bg_change");
-    
+   
     getLatestRelease("vgmoose","hbas",".zip","Homebrew App Store");
     extractZip("Homebrew App Store","wiiu","");
     
-    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wup_installer_gx2.zip", "WUP Installer GX2 (Homebrew Launcher)");
-    extractZip("WUP Installer GX2 (Homebrew Launcher)","","");
+    getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://wiiubru.com/appstore/zips/wup_installer_gx2.zip", "WUP Installer GX2 (HBL)");
+    extractZip("WUP Installer GX2 (HBL)","","");
     
     
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip", "WUP Installer GX2 (Channel)");
     extractFolder("WUP Installer GX2 (Channel)","WUP_Installer_GX2","install")
     
-    getRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","1.4","Homebrew Launcher 1.4");
-    extractZip("Homebrew Launcher 1.4","","");
+    getRelease("dimok789","homebrew_launcher","homebrew_launcher.v1.4.zip","1.4","HBL 1.4");
+    extractZip("HBL 1.4","","");
     
     getLatestRelease("FIX94","haxchi","CBHC","CBHC");
     extractZip("CBHC","","");
@@ -31,8 +31,8 @@ function startup_CFW(){
     
     getFileBuffer_url("https://cors-anywhere.herokuapp.com/https://wiiu.guide/images/config.txt", "Config.txt");       
     addFile("Config.txt","haxchi","config.txt","list");    
-    getLatestRelease("dimok789","homebrew_launcher","channel","Homebrew Launcher Channel");
-    extractZip("Homebrew Launcher Channel","install/hbc","");
+    getLatestRelease("dimok789","homebrew_launcher","channel","HBL Channel");
+    extractZip("HBL Channel","install/hbc","");
     
     notLatestRelease("dimok789","mocha",".zip","Mocha CFW");
     getFileBuffer_zip("Mocha CFW","mocha.elf","mocha.elf","wiiu/apps/mocha");
