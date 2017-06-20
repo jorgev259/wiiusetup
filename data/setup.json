@@ -52,7 +52,12 @@
         "steps":[
             {
                 "type": "extractFile",
-                "file": ".zip",
+                "file": "Haxchi",
+                "path": ""
+            },
+            {
+                "type": "extractFile",
+                "file": "CBHC",
                 "path": ""
             }
         ]
