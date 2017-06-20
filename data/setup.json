@@ -1,0 +1,216 @@
+{
+    "Homebrew App Store":{
+        "type":"github",
+        "repo":"vgmoose/hbas",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file": ".zip",
+                "path":"wiiu"
+            }
+        ]
+    },
+
+    "WUP Installer GX2 (HBL)":{
+        "type":"direct",
+        "url":"http://wiiubru.com/appstore/zips/wup_installer_gx2.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path":""
+            }
+        ]
+    },
+
+    "WUP Installer GX2 (Channel)":{
+        "type":"direct",
+        "url":"http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path": "install"
+            }
+        ]
+    },
+
+     "HBL 1.4":{
+        "type":"github",
+        "repo":"dimok789/homebrew_launcher",
+         "version":"1.4",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file": "homebrew_launcher.v1.4.zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Haxchi":{
+        "type":"github",
+        "repo": "FIX94/haxchi",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file": ".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Config.txt":{
+        "type":"direct",
+        "url":"https://wiiu.guide/images/config.txt",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"config.txt",
+                "path":"haxchi"
+            }
+        ]
+    },
+
+    "HBL Channel":{
+        "type":"github",
+        "repo":"dimok789/homebrew_launcher",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": "install/hbc"
+            }
+        ]
+    },
+
+    "Mocha CFW":{
+        "type":"github",
+        "repo":"dimok789/mocha",
+        "version":"v0.2",
+        "steps":[
+            {
+                "type":"extractFile",
+                "file":".zip",
+                "fileExtract":"mocha.elf",
+                "path":"wiiu/apps/mocha"
+            }
+        ]
+    },
+
+    "Savemii":{
+        "type":"github",
+        "repo":"Ryuzaki-MrL/savemii",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": "wiiu/apps"
+            }
+        ]
+    },
+
+    "disc2app":{
+        "type":"github",
+        "repo":"koolkdev/disc2app",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Hid to Vpad":{
+        "type":"github",
+        "repo":"Maschell/hid_to_vpad",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "NNU-Patcher":{
+        "type":"direct",
+        "url":"http://wiiubru.com/appstore/zips/nnupatcher.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path": ""
+            }
+        ]
+    },
+
+    "Wuphax":{
+        "type":"direct",
+        "url":"http://wiiubru.com/appstore/zips/wuphax.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path": ""
+            }
+        ]
+    },
+
+    "Patched IOS80 installer":{
+        "type":"direct",
+        "url":"https://wiiu.guide/images/Patched_IOS80_Installer_for_vWii.zip",
+        "steps":[
+            {
+                "type": "extractFolder",
+                "folder":"apps",
+                "path": ""
+            }
+        ]
+    },
+
+    "Bootmii":{
+        "type":"direct",
+        "url":"http://wiiusetup.net/localFiles/hackmii_installer_v1.2.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "fileExtract":"hackmii_installer_v1.2/boot.elf",
+                "newName":"boot.elf",
+                "path": ""
+            }
+        ]
+    },
+
+    "Wii U Modding":{
+        "type":"list",
+        "steps":[
+            "HBL 1.4",
+             "WUP Installer GX2 (Channel)",
+             "WUP Installer GX2 (HBL)",
+            "Homebrew App Store",
+            "Haxchi",
+            "Config.txt",
+            "HBL Channel",
+            "Mocha CFW",
+            "Savemii",
+            "disc2app",
+            "Hid to Vpad",
+            "NNU-Patcher"
+        ]
+    },
+
+    "VWii Modding":{
+        "type":"list",
+        "steps":[
+            "Wuphax",
+            "Patched IOS80 installer",
+            "Bootmii"
+        ]
+    },
+
+    "Full Setup":{
+        "type":"list",
+        "steps":[
+            "Wii U Modding",
+            "VWii Modding"
+        ]
+    }
+}

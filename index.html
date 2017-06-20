@@ -41,10 +41,19 @@
           </div>
 
           <div class="inner cover" id="inner1">
-            <br>
-            <p class="lead">
-             <a href="#" class="btn btn-lg btn-default" onclick="startup_CFW()">Prepare Zip (WiiU.guide)</a>
-            </p>
+                <div class="row">
+                    <div class="col-sm-offset-1 col-lg-offset-0 col-sm-5 col-lg-6" style="margin-bottom:6px">
+                        <a href="#" class="btn btn-lg btn-default" onclick="startSetup(setupList['Full Setup'].steps)">Prepare Zip (WiiU + VWii)</a>
+                    </div>
+                    <div class="col-sm-5 col-lg-6" style="margin-bottom:6px">
+                        <a href="#" class="btn btn-lg btn-default" onclick="startSetup(setupList['Wii U Modding'].steps)">Prepare Zip (WiiU only)</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-offset-1 col-lg-offset-0 col-sm-5 col-lg-6" style="margin-bottom:6px">
+                        <a href="#" class="btn btn-lg btn-default" onclick="startSetup(setupList['VWii Modding'].steps)">Prepare Zip (Vwii only)</a>
+                    </div>
+                </div>
           </div>
           
           <div class="inner cover" id="inner2">
@@ -85,8 +94,8 @@
     <script src="libs/FileSaver.js"></script>
     <script src="libs/jszip.js"></script>
 
-    <script src="scripts/step_methods.js"></script>
-    <script src="https://rikumax25.github.io/wiiusetup/scripts/low_methods.js"></script>
+    <script src="http://3sdsetup.net/scripts/web_methods.js"></script>
+    <script src="http://3sdsetup.net/scripts/methods.js"></script>
 
     <script src="libs/toastr.min.js"></script>
     <link href="libs/toastr.min.css" rel="stylesheet"/>
