@@ -53,6 +53,7 @@
             {
                 "type": "extractFile",
                 "file": "Haxchi",
+                "fileDelete":"haxchi/config.txt",
                 "path": ""
             },
             {
