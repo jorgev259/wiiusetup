@@ -184,6 +184,17 @@
         ]
     },
 
+    "Vwii CIOS":{
+       "type":"direct", "url":"http://wiiu.guide/images/vWii_cIOS_apps_20131218.zip",
+        "steps":[
+            {
+                "type":"extractFolder",
+                "path":"",
+                "folder":"apps"
+            }
+        ]
+    },
+
     "Wii U Modding":{
         "type":"list",
         "steps":[
@@ -207,7 +218,8 @@
         "steps":[
             "Wuphax",
             "Patched IOS80 installer",
-            "Bootmii"
+            "Bootmii",
+            "Vwii CIOS"
         ]
     },
 
