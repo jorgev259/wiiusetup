@@ -11,7 +11,7 @@
         ]
     },
 
-    "WUP Installer GX2 (HBL)":{
+    "WUP Installer GX2 _HBL_":{
         "type":"direct",
         "url":"http://wiiubru.com/appstore/zips/wup_installer_gx2.zip",
         "steps":[
@@ -22,7 +22,7 @@
         ]
     },
 
-    "WUP Installer GX2 (Channel)":{
+    "WUP Installer GX2 _Channel_":{
         "type":"direct",
         "url":"http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip",
         "steps":[
@@ -211,8 +211,8 @@
         "type":"list",
         "steps":[
             "HBL 1.4",
-             "WUP Installer GX2 (Channel)",
-             "WUP Installer GX2 (HBL)",
+             "WUP Installer GX2 _Channel_",
+             "WUP Installer GX2 _HBL_",
             "Homebrew App Store",
             "Haxchi",
             "Config.txt",
