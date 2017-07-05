@@ -195,6 +195,17 @@
             }
         ]
     },
+    
+    "Nintendont and Wiiflow":{
+        "type":"direct",
+        "url":"https://flumpster.lolcakes.com/forums/Nintendont&Wiiflow.zip",
+        "steps":[
+            {
+                "type":"extractFile",
+                "path":""
+            }
+        ]
+    },
 
     "Wii U Modding":{
         "type":"list",
@@ -220,7 +231,8 @@
             "Wuphax",
             "Patched IOS80 installer",
             "Bootmii",
-            "Vwii CIOS"
+            "Vwii CIOS",
+            "Nintendont and Wiiflow"
         ]
     },
 
