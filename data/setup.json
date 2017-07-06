@@ -202,6 +202,7 @@
         "steps":[
             {
                 "type":"extractFile",
+                "fileDelete":"apps/d2x-cios-installer",
                 "path":""
             }
         ]
