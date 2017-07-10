@@ -126,6 +126,18 @@
         ]
     },
 
+    "Wii U Nand Dumoer":{
+        "type":"github",
+        "repo":"koolkdev/wiiu-nanddumper",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
     "Hid to Vpad":{
         "type":"github",
         "repo":"Maschell/hid_to_vpad",
@@ -222,7 +234,8 @@
             "Savemii",
             "disc2app",
             "Hid to Vpad",
-            "NNU-Patcher"
+            "NNU-Patcher",
+            "Wii U Nand Dumper"
         ]
     },
 
