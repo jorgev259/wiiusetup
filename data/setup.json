@@ -221,6 +221,7 @@
     },
 
     "Wii U Modding":{
+        "zipname":"Wii U only",
         "type":"list",
         "steps":[
             "HBL 1.4",
@@ -240,6 +241,7 @@
     },
 
     "VWii Modding":{
+        "zipname":"VWii only",
         "type":"list",
         "steps":[
             "Wuphax",
@@ -251,6 +253,7 @@
     },
 
     "Full Setup":{
+        "zipname":"Wii U + Vwii",
         "type":"list",
         "steps":[
             "Wii U Modding",
