@@ -91,7 +91,7 @@
     "Mocha CFW":{
         "type":"github",
         "repo":"dimok789/mocha",
-        "version":"v0.2",
+        "version":"",
         "steps":[
             {
                 "type":"extractFile",
@@ -104,7 +104,7 @@
 
     "Savemii":{
         "type":"github",
-        "repo":"Ryuzaki-MrL/savemii",
+        "repo":"GabyPCgeeK/savemii",
         "steps":[
             {
                 "type": "extractFile",
