@@ -105,6 +105,7 @@
     "Savemii":{
         "type":"github",
         "repo":"GabyPCgeeK/savemii",
+        "version":"",
         "steps":[
             {
                 "type": "extractFile",
