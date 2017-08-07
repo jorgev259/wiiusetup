@@ -187,7 +187,7 @@
 
     "Bootmii":{
         "type":"direct",
-        "url":"http://wiiusetup.net/localFiles/hackmii_installer_v1.2.zip",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/hackmii_installer_v1.2.zip",
         "steps":[
             {
                 "type": "extractFile",
