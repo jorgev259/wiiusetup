@@ -142,6 +142,20 @@
     "Hid to Vpad":{
         "type":"github",
         "repo":"Maschell/hid_to_vpad",
+        "version":"",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Wii U Nand Dumper":{
+        "type":"github",
+        "repo":"wiiu-nanddumper/releases",
+        "version":"",
         "steps":[
             {
                 "type": "extractFile",
