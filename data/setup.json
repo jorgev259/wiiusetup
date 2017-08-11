@@ -154,7 +154,7 @@
 
     "Wii U Nand Dumper":{
         "type":"github",
-        "repo":"wiiu-nanddumper/releases",
+        "repo":"koolkdev/wiiu-nanddumper",
         "version":"",
         "steps":[
             {
