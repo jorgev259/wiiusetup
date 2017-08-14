@@ -235,6 +235,19 @@
         ]
     },
 
+    "HBL Forwarder Channel":{
+        "type":"direct",
+        "url":"http://www.hacksden.com/attachment.php?s=91df71bc62ed05eff1af006d94c20c3d&attachmentid=934&d=1384030663",
+        "steps":[
+            {
+                "type":"addFile",
+                "fileExtract":"Dark HBC - HBCD - vWii.wad",
+                "newName":"boot.elf",
+                "path":"channel"
+            }
+        ]
+    },
+
     "Wii U Modding":{
         "zipname":"Wii U only",
         "type":"list",
@@ -260,6 +273,7 @@
         "type":"list",
         "steps":[
             "Wuphax",
+            "HBL Forwarder Channel",
             "Patched IOS80 installer",
             "Bootmii",
             "Vwii CIOS",
