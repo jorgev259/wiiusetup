@@ -237,7 +237,7 @@
 
     "HBL Forwarder Channel":{
         "type":"direct",
-        "url":"http://www.hacksden.com/attachment.php?s=91df71bc62ed05eff1af006d94c20c3d&attachmentid=934&d=1384030663",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Dark HBC - HBCD - vWii.zip",
         "steps":[
             {
                 "type":"extractFile",
