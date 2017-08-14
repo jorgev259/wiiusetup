@@ -242,7 +242,7 @@
             {
                 "type":"addFile",
                 "fileExtract":"Dark HBC - HBCD - vWii.wad",
-                "newName":"boot.elf",
+                "newName":"HBLForwarder.wad",
                 "path":"channel"
             }
         ]
