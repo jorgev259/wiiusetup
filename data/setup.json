@@ -33,14 +33,14 @@
         ]
     },
 
-     "HBL 1.4":{
+     "HBL 1.3":{
         "type":"github",
         "repo":"dimok789/homebrew_launcher",
-         "version":"1.4",
+         "version":"v1.3",
         "steps":[
             {
                 "type": "extractFile",
-                "file": "homebrew_launcher.v1.4.zip",
+                "file": "homebrew_launcher.v1.3.zip",
                 "path": ""
             }
         ]
@@ -252,7 +252,7 @@
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
-            "HBL 1.4",
+            "HBL 1.3",
              "WUP Installer GX2 _Channel_",
              "WUP Installer GX2 _HBL_",
             "Homebrew App Store",
