@@ -218,7 +218,7 @@
         "steps":[
             {
                 "type": "extractFile",
-                "path": "wiiu"
+                "path": "wiiu/apps"
             }
         ]
     },
