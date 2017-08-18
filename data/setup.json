@@ -127,6 +127,18 @@
         ]
     },
 
+    "SwapDRC":{
+        "type":"github",
+        "repo":"OatmealDome/SwapDRC",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":"lite",
+                "path": ""
+            }
+        ]
+    },
+
     "Wii U Nand Dumoer":{
         "type":"github",
         "repo":"koolkdev/wiiu-nanddumper",
@@ -276,7 +288,8 @@
             "Hid to Vpad",
             "NNU-Patcher",
             "Wii U Nand Dumper",
-            "Icons and Meta"
+            "Icons and Meta",
+            "SwapDRC"
         ]
     },
 
