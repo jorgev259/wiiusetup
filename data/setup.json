@@ -212,6 +212,17 @@
         ]
     },
 
+    "Icons and Meta":{
+        "type":"direct",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/meta.zip",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path": "wiiu"
+            }
+        ]
+    },
+
     "Vwii CIOS":{
        "type":"direct", "url":"http://wiiu.guide/images/vWii_cIOS_apps_20131218.zip",
         "steps":[
@@ -264,7 +275,8 @@
             "disc2app",
             "Hid to Vpad",
             "NNU-Patcher",
-            "Wii U Nand Dumper"
+            "Wii U Nand Dumper",
+            "Icons and Meta"
         ]
     },
 
