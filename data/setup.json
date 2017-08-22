@@ -164,19 +164,6 @@
         ]
     },
 
-    "Wii U Nand Dumper":{
-        "type":"github",
-        "repo":"koolkdev/wiiu-nanddumper",
-        "version":"",
-        "steps":[
-            {
-                "type": "extractFile",
-                "file":".zip",
-                "path": ""
-            }
-        ]
-    },
-
     "NNU-Patcher":{
         "type":"direct",
         "url":"http://wiiubru.com/appstore/zips/nnupatcher.zip",
