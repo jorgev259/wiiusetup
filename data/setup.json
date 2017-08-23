@@ -164,6 +164,30 @@
         ]
     },
 
+    "SDCafiine":{
+        "type":"github",
+        "repo":"Maschell/SDCafiine",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            },
+            {
+                "type":"folder",
+                "name":"sdcafiine/exampleID(one modpack)/content/patch"
+            },
+            {
+                "type":"folder",
+                "name":"sdcafiine/exampleID(multiple modpacks)/modpack1/content/patch"
+            },
+            {
+                "type":"folder",
+                "name":"sdcafiine/exampleID(multiple modpacks)/modpack2/content/patch"
+            }
+        ]
+    },
+
     "NNU-Patcher":{
         "type":"direct",
         "url":"http://wiiubru.com/appstore/zips/nnupatcher.zip",
@@ -276,7 +300,8 @@
             "NNU-Patcher",
             "Wii U Nand Dumper",
             "Icons and Meta",
-            "SwapDRC"
+            "SwapDRC",
+            "SDCafiine"
         ]
     },
 
