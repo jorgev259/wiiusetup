@@ -259,11 +259,11 @@
     
     "Nintendont and Wiiflow":{
         "type":"direct",
-        "url":"https://flumpster.lolcakes.com/forums/Nintendont&Wiiflow.zip",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Nintendont&Wiiflow.zip",
         "steps":[
             {
                 "type":"extractFile",
-                "fileDelete":"apps/d2x-cios-installer",
+                "fileDelete":{"files":["controller","apps/d2x-cios-installer"]},
                 "path":""
             }
         ]
