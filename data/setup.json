@@ -158,6 +158,7 @@
         "steps":[
             {
                 "type": "extractFile",
+                "fileDelete":"wiiu/controller",
                 "file":".zip",
                 "path": ""
             }
@@ -263,7 +264,7 @@
         "steps":[
             {
                 "type":"extractFile",
-                "fileDelete":{"files":["controller","apps/d2x-cios-installer"]},
+                "fileDelete":"apps/d2x-cios-installer",
                 "path":""
             }
         ]
