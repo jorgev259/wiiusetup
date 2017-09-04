@@ -139,7 +139,7 @@
         ]
     },
 
-    "Wii U Nand Dumoer":{
+    "Wii U Nand Dumper":{
         "type":"github",
         "repo":"koolkdev/wiiu-nanddumper",
         "steps":[
