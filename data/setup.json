@@ -266,7 +266,19 @@
                 "type":"extractFile",
                 "fileDelete":"apps/d2x-cios-installer",
                 "path":""
-            }
+            },
+            {
+                "type":"folder",
+                "name":"games"
+            },
+            {
+                "type":"folder",
+                "name":"wbfs"
+            },
+            {
+                "type":"folder",
+                "name":"saves"
+            }			
         ]
     },
 
