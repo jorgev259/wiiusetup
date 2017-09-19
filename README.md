@@ -1,3 +1,13 @@
+# wiiusetup
+
+https://rikumax25.github.io/wiiusetup/
+
+For use with https://wiiu.guide/
+
+Thread: https://gbatemp.net/threads/plailects-guides-file-downloaders-web-3sdsetup-wiiusetup.478176/
+
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Documentaion
 
