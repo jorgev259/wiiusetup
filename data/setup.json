@@ -334,6 +334,7 @@
     },
 
     "Full Setup":{
+        "start":"https://wiiu.guide/get-started#section-ii---ds-virtual-console-game",
         "zipname":"Wii U + Vwii",
         "type":"list",
         "steps":[
