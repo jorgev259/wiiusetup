@@ -296,6 +296,7 @@
     },
 
     "Wii U Modding":{
+        "start":"https://wiiu.guide/get-started#section-ii---ds-virtual-console-game",
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
@@ -319,6 +320,7 @@
     },
 
     "VWii Modding":{
+        "start":"https://wiiu.guide/vwii-modding#section-ii---wuphax",
         "zipname":"VWii only",
         "type":"list",
         "steps":[
