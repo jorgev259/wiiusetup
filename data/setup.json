@@ -59,6 +59,7 @@
             {
                 "type": "extractFile",
                 "file": "CBHC",
+                "fileDelete":"cbhc/title.txt",
                 "path": ""
             }
         ]
@@ -72,6 +73,18 @@
                 "type":"addFile",
                 "file":"config.txt",
                 "path":"haxchi"
+            }
+        ]
+    },
+
+    "title.txt":{
+        "type":"direct",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/title.txt",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"title.txt",
+                "path":"cbhc"
             }
         ]
     },

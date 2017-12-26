@@ -1,0 +1,5 @@
+-Coldboot Haxchi Rules-
+1. Don't format the system
+2. Don't delete the main user account or remove its NNID
+3. Don't install the same DS VC game with WUP Installer
+4. Don't install Haxchi without first removing CBHC
