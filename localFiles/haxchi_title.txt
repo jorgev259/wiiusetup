@@ -1,0 +1,2 @@
+Default - CFW
+Hold A - Homebrew Launcher
