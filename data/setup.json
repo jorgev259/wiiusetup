@@ -77,6 +77,18 @@
         ]
     },
 
+    "Mocha Config.ini":{
+        "type":"direct",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/config.ini",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"title.txt",
+                "path":"wiiu/apps/mocha"
+            }
+        ]
+    },
+
     "title.txt CBHC":{
         "type":"direct",
         "url":"https://rikumax25.github.io/wiiusetup/localFiles/cbhc_title.txt",
@@ -330,6 +342,7 @@
              "WUP Installer GX2 _HBL_",
             "Homebrew App Store",
             "Haxchi",
+            "Mocha Config.ini",
             "Config.txt",
             "title.txt Haxchi",
             "title.txt CBHC",
