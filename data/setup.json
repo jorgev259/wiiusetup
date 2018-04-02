@@ -83,7 +83,7 @@
         "steps":[
             {
                 "type":"addFile",
-                "file":"title.txt",
+                "file":"config.ini",
                 "path":"wiiu/apps/mocha"
             }
         ]
