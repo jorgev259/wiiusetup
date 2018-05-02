@@ -67,7 +67,7 @@
 
     "Config.txt":{
         "type":"direct",
-        "url":"https://wiiu.guide/images/config.txt",
+        "url":"https://wiiu.hacks.guide/images/config.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -250,7 +250,7 @@
 
     "Patched IOS80 installer":{
         "type":"direct",
-        "url":"https://wiiu.guide/images/Patched_IOS80_Installer_for_vWii.zip",
+        "url":"https://wiiu.hacks.guide/images/Patched_IOS80_Installer_for_vWii.zip",
         "steps":[
             {
                 "type": "extractFolder",
@@ -285,7 +285,7 @@
     },
 
     "Vwii CIOS":{
-       "type":"direct", "url":"http://wiiu.guide/images/vWii_cIOS_apps_20131218.zip",
+       "type":"direct", "url":"http://wiiu.hacks.guide/images/vWii_cIOS_apps_20131218.zip",
         "steps":[
             {
                 "type":"extractFolder",
@@ -333,7 +333,7 @@
     },
 
     "Wii U Modding":{
-        "start":"https://wiiu.guide/get-started#section-ii---ds-virtual-console-game",
+        "start":"https://wiiu.hacks.guide/get-started#section-ii---ds-virtual-console-game",
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
@@ -360,7 +360,7 @@
     },
 
     "VWii Modding":{
-        "start":"https://wiiu.guide/vwii-modding#section-ii---wuphax",
+        "start":"https://wiiu.hacks.guide/vwii-modding#section-ii---wuphax",
         "zipname":"VWii only",
         "type":"list",
         "steps":[
@@ -375,7 +375,7 @@
     },
 
     "Full Setup":{
-        "start":"https://wiiu.guide/get-started#section-ii---ds-virtual-console-game",
+        "start":"https://wiiu.hacks.guide/get-started#section-ii---ds-virtual-console-game",
         "zipname":"Wii U + Vwii",
         "type":"list",
         "steps":[
