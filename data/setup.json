@@ -67,7 +67,7 @@
 
     "Config.txt":{
         "type":"direct",
-        "url":"https://wiiu.hacks.guide/images/config.txt",
+        "url":"https://hiperhazz.github.io/wiiusetup/localFiles/config.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -250,7 +250,7 @@
 
     "Patched IOS80 installer":{
         "type":"direct",
-        "url":"https://wiiu.hacks.guide/images/Patched_IOS80_Installer_for_vWii.zip",
+        "url":"https://hiperhazz.github.io/wiiusetup/localFiles/Patched_ios80_installer.zip",
         "steps":[
             {
                 "type": "extractFolder",
