@@ -67,7 +67,7 @@
 
     "Config.txt":{
         "type":"direct",
-        "url":"https://hiperhazz.github.io/wiiusetup/localFiles/config.txt",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/config.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -250,7 +250,7 @@
 
     "Patched IOS80 installer":{
         "type":"direct",
-        "url":"https://hiperhazz.github.io/wiiusetup/localFiles/Patched_ios80_installer.zip",
+        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Patched_ios80_installer.zip",
         "steps":[
             {
                 "type": "extractFolder",
