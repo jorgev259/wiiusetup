@@ -67,7 +67,7 @@
 
     "Config.txt":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/config.txt",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/config.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -79,7 +79,7 @@
 
     "Mocha Config.ini":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/config.ini",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/config.ini",
         "steps":[
             {
                 "type":"addFile",
@@ -91,7 +91,7 @@
 
     "title.txt CBHC":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/cbhc_title.txt",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/cbhc_title.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -103,7 +103,7 @@
 
     "title.txt Haxchi":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/haxchi_title.txt",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/haxchi_title.txt",
         "steps":[
             {
                 "type":"addFile",
@@ -250,7 +250,7 @@
 
     "Patched IOS80 installer":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Patched_ios80_installer.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/Patched_ios80_installer.zip",
         "steps":[
             {
                 "type": "extractFolder",
@@ -262,7 +262,7 @@
 
     "Bootmii":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/hackmii_installer_v1.2.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/hackmii_installer_v1.2.zip",
         "steps":[
             {
                 "type": "extractFile",
@@ -275,7 +275,7 @@
 
     "Icons and Meta":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/meta.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/meta.zip",
         "steps":[
             {
                 "type": "extractFile",
@@ -297,7 +297,7 @@
     
     "Nintendont and Wiiflow":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Nintendont&Wiiflow.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/Nintendont&Wiiflow.zip",
         "steps":[
             {
                 "type":"extractFile",
@@ -321,7 +321,7 @@
 
     "HBL Forwarder Channel":{
         "type":"direct",
-        "url":"https://rikumax25.github.io/wiiusetup/localFiles/Dark HBC - HBCD - vWii.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/Dark HBC - HBCD - vWii.zip",
         "steps":[
             {
                 "type":"extractFile",
