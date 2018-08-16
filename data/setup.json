@@ -285,7 +285,8 @@
     },
 
     "Vwii CIOS":{
-       "type":"direct", "url":"http://wiiu.hacks.guide/images/vWii_cIOS_apps_20131218.zip",
+       "type":"direct", 
+        "url":"https://wiiu.hacks.guide/assets/files/vWii_cIOS_apps_20131218.zip",
         "steps":[
             {
                 "type":"extractFolder",
