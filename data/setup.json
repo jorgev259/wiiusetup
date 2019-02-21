@@ -350,7 +350,6 @@
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
-            "HBL 1.4",
             "Payload.elf",
             "WUP Installer GX2 _Channel_",
             "WUP Installer GX2 _HBL_",
