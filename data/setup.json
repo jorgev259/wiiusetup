@@ -5,8 +5,8 @@
         "steps":[
             {
                 "type": "extractFile",
-                "file": ".zip",
-                "path":"wiiu"
+                "file": "wiiu-extracttosd.zip",
+                "path":""
             }
         ]
     },
