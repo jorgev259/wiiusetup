@@ -2,7 +2,7 @@
 
 https://jorgev259.github.io/wiiusetup/
 
-For use with https://wiiu.hacks.guide
+For use with https://wiiuguide.xyz/
 
 Thread: https://gbatemp.net/threads/plailects-guides-file-downloaders-web-3sdsetup-wiiusetup.478176/
 
