@@ -296,9 +296,9 @@
         ]
     },
 
-    "Vwii CIOS":{
+    "vWii cIOS":{
        "type":"direct", 
-        "url":"https://wiiuguide.xyz/docs/files/vWii_cIOS_apps_20131218.zip",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/vWii_cIOS_apps_20131218.zip",
         "steps":[
             {
                 "type":"extractFolder",
@@ -345,8 +345,20 @@
         ]
     },
 
+    "Indexiine Installer":{
+        "type":"github",
+        "repo":"GaryOderNichts/indexiine-installer",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
     "Wii U Modding":{
-        "start":"https://wiiuguide.xyz/",
+        "start":"https://wiiu.hacks.guide/",
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
@@ -369,32 +381,33 @@
             "Icons and Meta",
             "SwapDRC",
             "SDCafiine",
-            "HBL 1.4"
+            "HBL 1.4",
+            "Indexiine Installer"
         ]
     },
 
-    "VWii Modding":{
-        "start":"https://wiiuguide.xyz/#/vwii/vwii-modding",
+    "vWii Modding":{
+        "start":"https://wiiu.hacks.guide/#/vwii-modding",
         "zipname":"vWii only",
         "type":"list",
         "steps":[
-            "HBL 1.3",
+            "HBL 1.4",
             "Wuphax",
             "HBL Forwarder Channel",
             "Patched IOS80 installer",
             "Bootmii",
-            "Vwii CIOS",
+            "vWii cIOS",
             "Nintendont and Wiiflow"
         ]
     },
 
     "Full Setup":{
-        "start":"https://wiiuguide.xyz/",
+        "start":"https://wiiu.hacks.guide/",
         "zipname":"Wii U + vWii",
         "type":"list",
         "steps":[
             "Wii U Modding",
-            "VWii Modding"
+            "vWii Modding"
         ]
     }
 }
