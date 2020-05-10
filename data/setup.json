@@ -152,14 +152,13 @@
     },
 
     "Savemii":{
-        "type":"github",
-        "repo":"GabyPCgeeK/savemii",
-        "version":"",
+        "type":"direct",
+        "url":"https://jorgev259.github.io/wiiusetup/localFiles/savemii_mod.zip",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "wiiu/apps"
+                "path": ""
             }
         ]
     },
