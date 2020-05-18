@@ -127,12 +127,12 @@
 
     "HBL Channel":{
         "type":"github",
-        "repo":"dimok789/homebrew_launcher",
+        "repo":"GaryOderNichts/homebrew_launcher",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "install/Homebrew Launcher Channel"
+                "path": "install"
             }
         ]
     },
