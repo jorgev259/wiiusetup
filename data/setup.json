@@ -198,6 +198,18 @@
             }
         ]
     },
+    
+    "vWii Dacaffeinator":{
+        "type":"github",
+        "repo":"GaryOderNichts/vWii-Decaffeinator",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
 
     "Hid to Vpad":{
         "type":"github",
@@ -396,6 +408,7 @@
             "Patched IOS80 installer",
             "Bootmii",
             "vWii cIOS",
+            "vWii Decaffeinator",
             "Nintendont and Wiiflow"
         ]
     },
