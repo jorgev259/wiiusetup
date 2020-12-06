@@ -198,6 +198,18 @@
             }
         ]
     },
+
+    "dumpling":{
+        "type":"github",
+        "repo":"emiyl/dumpling",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
     
     "vWii Dacaffeinator":{
         "type":"github",
@@ -389,6 +401,7 @@
             "Hid to Vpad",
             "NNU-Patcher",
             "Wii U Nand Dumper",
+            "dumpling",
             "Icons and Meta",
             "SwapDRC",
             "SDCafiine",
