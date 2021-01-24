@@ -377,7 +377,7 @@ function updateRateLimit(noTimeout) {
 }
 
 function corsURL(url) {
-	return "https://cors-anywhere.herokuapp.com/" + url;
+	return "https://cors.chitowarlock.com/" + url;
 }
 
 function getGithubAsset(assets, filename) {
