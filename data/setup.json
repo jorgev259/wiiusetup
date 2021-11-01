@@ -274,7 +274,7 @@
 
     "Compat-installer":{
         "type":"github",
-        "url":"TheLordScruffy/vwii-compat-installer",
+        "repo":"TheLordScruffy/vwii-compat-installer",
         "steps":[
             {
                 "type":"addFile",
