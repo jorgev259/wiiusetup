@@ -272,13 +272,14 @@
         ]
     },
 
-    "Wuphax":{
-        "type":"direct",
-        "url":"http://wiiubru.com/appstore/zips/wuphax.zip",
+    "Compat-installer":{
+        "type":"github",
+        "url":"TheLordScruffy/vwii-compat-installer",
         "steps":[
             {
-                "type": "extractFile",
-                "path": ""
+                "type":"addFile",
+                "file":"compat_installer.elf",
+                "path":"wiiu/apps"
             }
         ]
     },
@@ -290,19 +291,6 @@
             {
                 "type": "extractFolder",
                 "folder":"apps",
-                "path": ""
-            }
-        ]
-    },
-
-    "Bootmii":{
-        "type":"direct",
-        "url":"https://jorgev259.github.io/wiiusetup/localFiles/hackmii_installer_v1.2.zip",
-        "steps":[
-            {
-                "type": "extractFile",
-                "fileExtract":"hackmii_installer_v1.2/boot.elf",
-                "newName":"boot.elf",
                 "path": ""
             }
         ]
@@ -416,10 +404,9 @@
         "type":"list",
         "steps":[
             "HBL 1.4",
-            "Wuphax",
+            "Compat-installer",
             "HBL Forwarder Channel",
             "Patched IOS80 installer",
-            "Bootmii",
             "vWii cIOS",
             "vWii Decaffeinator",
             "Nintendont and Wiiflow"
