@@ -380,12 +380,97 @@
         ]
     },
 
-    "Tiramisu": {
-        "type":"direct",
-        "url":"https://tiramisu.foryour.cafe/api/download?packages=environmentloader,wiiu-nanddumper-payload,payloadloaderinstaller,tiramisu",
+    "Tiramisu nanddumper": {
+        "type":"github",
+        "repo":"wiiu-env/wiiu-nanddumper-payload",
         "steps":[
             {
                 "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu mochapayload": {
+        "type":"github",
+        "repo":"wiiu-env/MochaPayload",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu launchinstaller": {
+        "type":"github",
+        "repo":"wiiu-env/LaunchInstaller",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu PayloadLoaderInstaller": {
+        "type":"github",
+        "repo":"wiiu-env/PayloadLoaderInstaller",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu HBLInstallerWrapper": {
+        "type":"github",
+        "repo":"wiiu-env/HBLInstallerWrapper",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu PayloadFromRPX": {
+        "type":"github",
+        "repo":"wiiu-env/PayloadFromRPX",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Homebrew Launcher": {
+        "type":"github",
+        "repo":"dimok789/homebrew_launcher",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
+                "path": ""
+            }
+        ]
+    },
+
+    "Tiramisu AutobootModule": {
+        "type":"github",
+        "repo":"wiiu-env/AutobootModule",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file":".zip",
                 "path": ""
             }
         ]
@@ -408,7 +493,15 @@
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
-            "Tiramisu",
+            "Tiramisu nanddumper",
+            "Tiramisu mochapayload",
+            "Tiramisu launchinstaller",
+            "Tiramisu PayloadLoaderInstaller",
+            "Tiramisu HBLInstallerWrapper",
+            "Tiramisu PayloadFromRPX",
+            "Homebrew Launcher",
+            "Homebrew Launcher",
+            "Tiramisu AutobootModule",
             "sigpatches",
             "Savemii",
             "Homebrew App Store",
