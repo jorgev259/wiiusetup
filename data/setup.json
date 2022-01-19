@@ -387,7 +387,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -399,7 +400,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -411,7 +413,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -423,7 +426,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -435,7 +439,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -447,7 +452,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
@@ -471,7 +477,8 @@
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": ""
+                "path": "",
+                "version": ""
             }
         ]
     },
