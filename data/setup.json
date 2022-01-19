@@ -382,7 +382,7 @@
 
     "Tiramisu nanddumper": {
         "type":"github",
-        "repo":"wiiu-env/wiiu-nanddumper-payload@latest",
+        "repo":"wiiu-env/wiiu-nanddumper-payload",
         "steps":[
             {
                 "type": "extractFile",
