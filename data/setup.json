@@ -383,12 +383,12 @@
     "Tiramisu nanddumper": {
         "type":"github",
         "repo":"wiiu-env/wiiu-nanddumper-payload",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -396,12 +396,12 @@
     "Tiramisu mochapayload": {
         "type":"github",
         "repo":"wiiu-env/MochaPayload",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -409,12 +409,12 @@
     "Tiramisu launchinstaller": {
         "type":"github",
         "repo":"wiiu-env/LaunchInstaller",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -422,12 +422,12 @@
     "Tiramisu PayloadLoaderInstaller": {
         "type":"github",
         "repo":"wiiu-env/PayloadLoaderInstaller",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -435,12 +435,12 @@
     "Tiramisu HBLInstallerWrapper": {
         "type":"github",
         "repo":"wiiu-env/HBLInstallerWrapper",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -448,12 +448,12 @@
     "Tiramisu PayloadFromRPX": {
         "type":"github",
         "repo":"wiiu-env/PayloadFromRPX",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
@@ -473,12 +473,12 @@
     "Tiramisu AutobootModule": {
         "type":"github",
         "repo":"wiiu-env/AutobootModule",
+        "version": "",
         "steps":[
             {
                 "type": "extractFile",
                 "file":".zip",
-                "path": "",
-                "version": ""
+                "path": ""
             }
         ]
     },
