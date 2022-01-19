@@ -1,11 +1,23 @@
 {
     "Homebrew App Store":{
         "type":"github",
-        "repo":"vgmoose/hbas",
+        "repo":"fortheusers/hb-appstore",
         "steps":[
             {
                 "type": "extractFile",
                 "file": "wiiu-extracttosd.zip",
+                "path":""
+            }
+        ]
+    },
+
+    "Bloopair":{
+        "type":"github",
+        "repo":"GaryOderNichts/Bloopair",
+        "steps":[
+            {
+                "type": "extractFile",
+                "file": ".zip",
                 "path":""
             }
         ]
@@ -368,33 +380,39 @@
         ]
     },
 
+    "Tiramisu": {
+        "type":"direct",
+        "url":"https://tiramisu.foryour.cafe/api/download?packages=environmentloader,wiiu-nanddumper-payload,payloadloaderinstaller,tiramisu",
+        "steps":[
+            {
+                "type": "extractFile",
+                "path": ""
+            }
+        ]
+    },
+
+    "sigpatches": {
+        "type":"direct",
+        "url":"https://wiiu.hacks.guide/docs/files/01_sigpatches.rpx",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"01_sigpatches.rpx",
+                "path":"wiiu/environments/tiramisu/modules/setup"
+            }
+        ]
+    },
+
     "Wii U Modding":{
         "start":"https://wiiu.hacks.guide/",
         "zipname":"Wii U only",
         "type":"list",
         "steps":[
-            "Payload.elf",
-            "WUP Installer GX2 _Channel_",
-            "WUP Installer GX2 _HBL_",
-            "Homebrew App Store",
-            "Haxchi",
-            "Mocha Config.ini",
-            "Config.txt",
-            "title.txt Haxchi",
-            "title.txt CBHC",
-            "HBL Channel",
-            "Mocha CFW",
+            "Tiramisu",
+            "sigpatches",
             "Savemii",
-            "disc2app",
-            "Hid to Vpad",
-            "NNU-Patcher",
-            "Wii U Nand Dumper",
-            "dumpling",
-            "Icons and Meta",
-            "SwapDRC",
-            "SDCafiine",
-            "HBL 1.4",
-            "Indexiine Installer"
+            "Homebrew App Store",
+            "Bloopair"
         ]
     },
 
